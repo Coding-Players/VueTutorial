@@ -1,17 +1,31 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <!-- <Home data="Hi I am Sudipta!!!"/>
+    <ConditionTute data="Conditional Statement"/>
+    <ForLoopTute msg="This is For-Loop Tutorial in vue"/> -->
+    <MainHome/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+// import Home from './components/Home.vue'
+// import ConditionTute from './components/ConditionTute.vue'
+// import ForLoopTute from './components/ForLoopTute.vue'
+
+import MainHome from './components/Home/MainHome.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld,
+    // Home,
+    // ConditionTute,
+    // ForLoopTute
+    MainHome
   }
 }
 </script>
@@ -23,6 +37,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin: 0;
+  padding: 0;
 }
 </style>
